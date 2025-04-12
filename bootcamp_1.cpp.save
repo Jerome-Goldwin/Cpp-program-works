@@ -1,0 +1,23 @@
+#include<iostream>
+
+using namespace std;
+
+void add(int )
+
+int main(){
+
+	string codename;
+	int a;
+	float b;
+
+	cout << "Enter your codename: ";
+	cin >> codename;
+	cout << endl << "Welcome, " << codename << endl;
+	cout << "\nEnter an integer: ";
+	cin >> a; cout << endl;
+	cout << "Enter a float: ";
+	cin >> b; cout << endl;
+	cout << "The number you entered are " << a << " and " << b << endl;
+	cout << "And the sum of those number are " << a+b << endl;
+	return 0;
+}
